@@ -1,0 +1,44 @@
+doctype html
+html(lang="es")
+head
+	meta(charset="UTF-8")
+	title Juego Dos
+	link(rel="stylesheet" href="./public/css/index.css")
+body
+	section.container
+		section.Layout-player2
+			div.avatar-player2
+			div.Carta-player2
+		section.Layout-player4
+			div.avatar-player4
+			div.Carta-player4
+	section.Layout
+		section.Layout-player3
+			div.avatar-player3
+			div.Carta-player3
+		section.Layout-main
+			div.Layout-status
+				include ../Deck/template.jade
+				include ../Cpu/template.jade
+			div#hidden Selecciona un Color Nuevo
+				div#contenedor2
+					button#rojo(type="button")
+					button#azul
+				div#contenedor2
+					button#amarillo
+					button#verde
+			div.fondo#winer
+				div.winer
+					h2 Ganador 
+				div.tabla
+					div.second
+						span 2° lugar 
+					div.third
+						span 3° lugar 
+					div.fourth
+						span 4° lugar 
+
+		section.Layout-player
+			div.avatar
+			div.Carta
+script(src = "./public/js/index.js")

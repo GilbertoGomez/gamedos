@@ -1,0 +1,13 @@
+doctype html
+html(lang="es")
+head
+	meta(charset="utf-8")
+	title Marver games
+	link(rel="stylesheet", href="./public/css/app.css")
+body
+	section.Layout
+		section.Layout-player
+			each card in [1,2,3,4,5]
+				include ../carta/template.jade
+	script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+

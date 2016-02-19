@@ -1,0 +1,180 @@
+body {
+  font-family: arial;
+  font-zise: 16px;
+  background-image: url("../images/city.jpg");
+  background-size: cover;
+}
+.Carta {
+  position: relative;
+  margin-top: 20px;
+}
+.Carta-imagen {
+  width: 60px;
+  height: 120px;
+  position: relative;
+}
+.Carta-imagen:hover {
+  top: -30px;
+  margin: 0;
+}
+.Carta-cpu {
+  width: 60px;
+  height: 120px;
+  position: relative;
+}
+.Carta-left {
+  position: relative;
+  width: 90px;
+  height: 60px;
+}
+.Cpu {
+  width: 110px;
+}
+.Cpu-imagen {
+  width: 60px;
+  height: 120px;
+}
+.Deck {
+  width: 120px;
+  transform: rotate(15deg);
+}
+.Deck-imagen {
+  width: 100%;
+  margin-left: 0;
+}
+.Mover {
+  width: 100px;
+  height: 200px;
+  margin: 2px;
+  position: relative;
+}
+.container {
+  position: absolute;
+  float: left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 100%;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+body {
+  font-family: arial;
+  font-size: 16px;
+  margin: 0;
+  border: 0;
+}
+.Layout {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+.Layout section {
+  margin: 0.5em;
+}
+.Layout-main {
+  display: flex;
+  justify-content: center;
+}
+.Layout-status {
+  display: flex;
+  justify-content: center;
+  margin: 0 0.5em;
+  width: auto;
+}
+.Layout-battle {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  padding-top: 15px;
+}
+.Layout-phases {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  padding: 20px;
+  background: #5858fa;
+  position: relative;
+}
+.Layout-phases p {
+  margin: 0;
+  padding: 0px;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+.Layout-antagonist {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.Layout-player {
+  display: flex;
+  justify-content: center;
+}
+.Layout-cpu {
+  justify-content: center;
+  clear: both;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.vista {
+  display: flex !important;
+}
+#hidden {
+  position: fixed;
+  z-index: 1000;
+  left: 1200px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #f5fffa;
+  background-color: #000;
+}
+#contenedor2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+#azul {
+  background: #00f;
+  height: 200px;
+  width: 300px;
+  border-top-right-radius: 100%;
+  outline: 0;
+}
+#amarillo {
+  background: #ff0;
+  width: 300px;
+  height: 200px;
+  border-bottom-left-radius: 100%;
+  outline: 0;
+}
+#rojo {
+  background: #f00;
+  height: 200px;
+  width: 300px;
+  border-top-left-radius: 100%;
+  outline: 0;
+}
+#verde {
+  background: #008000;
+  width: 300px;
+  height: 200px;
+  border-bottom-right-radius: 100%;
+  outline: 0;
+}

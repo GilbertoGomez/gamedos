@@ -1,0 +1,114 @@
+@import "../Carta/styles.styl"
+
+body
+	font-family arial
+	font-size 16px
+	margin 0
+	border 0
+	
+.Layout
+	display flex
+	padding 0
+	margin 0
+	flex-direction column
+	min-height 100vh
+	justify-content space-between
+	section 
+		margin .5em
+	&-main
+		display flex
+		justify-content center
+	&-status
+		display flex
+		justify-content center
+		width 400px
+	&-battle
+		display flex
+		justify-content center
+		width 400px
+		padding-top 15px
+	&-phases
+		width 150px
+		height 150px
+		border-radius 15px
+		padding 20px 
+		background #5858FA
+		position relative
+		
+		p
+			margin 0
+			padding 0px
+			color black
+			font-size 30px
+			font-weight bold
+			position relative
+			text-align center
+		
+	&-antagonist
+		display flex
+		justify-content center
+		margin 0
+		
+	&-player
+		display flex
+		justify-content center
+		
+	&-cpu
+		justify-content: center;
+		clear: both;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		
+		.avatar-cpu
+			border-color: #BC05BF
+			height: 100px;
+			width: 100%;
+
+.vista
+	display flex !important
+
+#hidden
+	position fixed
+	z-index 1000
+	left 1200px
+	top 0
+	left 0
+	width 100%
+	height 100%
+	display none
+	justify-content center
+	flex-direction column
+	text-align center
+	font-size 50px
+	font-weight bold
+	color mintcream
+	background-color black
+#contenedor2
+	display flex
+	position relative
+	justify-content center
+#azul
+	background #00f
+	height 200px
+	width 300px
+	border-top-right-radius 100%
+	outline 0
+#amarillo
+	background yellow
+	width 300px
+	height 200px
+	border-bottom-left-radius 100%
+	outline 0
+#rojo
+	background #f00
+	height 200px
+	width 300px
+	border-top-left-radius 100%
+	outline 0
+#verde
+	background green
+	width 300px
+	height 200px
+	border-bottom-right-radius 100%
+	outline 0

@@ -1,0 +1,62 @@
+@import 'nib'
+body
+	font-family arial
+	font-zise 16px
+	background url("../images/city.jpg") no-repeat fixed center
+	background-size cover
+	
+
+.Carta
+	position relative
+	padding-left 10px
+	&-imagen
+		width 60px
+		height 120px
+		position relative
+		&:hover
+			top -30px
+			margin 0
+	&-cpu
+		width 60px
+		height 120px
+		position relative
+	&-left
+		position: relative;
+		height: 60px;
+		
+
+.Cpu
+	z-index -1
+	
+	&-imagen
+		width 60px
+
+.Deck
+	display flex
+	margin-right 30px 
+	
+	&-imagen
+		width 150px
+		margin-left 0
+		transform: rotate(-65deg);
+		
+.Mover
+	width 100px
+	height 200px
+	margin 2px
+	position relative
+
+
+.container
+	display flex
+	justify-content space-between
+	-moz-box-pack justify
+	height 100%
+	width 100%
+	position absolute
+	flex 1 0 90%
+	-moz-box-flex 1
+	flex-wrap wrap
+	float left
+	max-width 203vh
+	max-height 99vh
